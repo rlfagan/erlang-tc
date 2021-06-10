@@ -13,6 +13,8 @@ Verfy basic secret key usage.
 ```erlang
 1> SK0 = tc_secret_key:random().
 #Ref<0.989752667.1337851906.91190>
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Ferlang-tc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Ferlang-tc?ref=badge_shield)
+
 2> SK1 = tc_secret_key:random().
 #Ref<0.989752667.1337851906.91197>
 3> PK0 = tc_secret_key:public_key(SK0).
@@ -42,3 +44,7 @@ Test
 -----
 
     $ make test
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Ferlang-tc.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Ferlang-tc?ref=badge_large)
